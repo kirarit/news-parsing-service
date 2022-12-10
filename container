@@ -1,0 +1,4 @@
+#!/bin/bash
+
+docker exec -it news-parsing-service bash -c "sudo -u kirad /bin/bash"
+
