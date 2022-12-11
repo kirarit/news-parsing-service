@@ -28,6 +28,9 @@
                         </div>
                     </article>
                     @endforeach
+                    <div style="padding-top: 5px;font-size: 12px">
+                        {{ $news->links() }}
+                    </div>
                     @endif
                 </section>
             </div>

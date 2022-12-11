@@ -46,6 +46,6 @@ class ArticleController extends Controller
             return $api->fetchAllNews();
         });
 
-        return $response;
+        return collect($response)->paginate(10);
     }
 }

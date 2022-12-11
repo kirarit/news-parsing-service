@@ -33,9 +33,9 @@ npm run dev
 ```
 
 Authentication:
-```
+
 Authentication is required and password for all users from seeder is <b>password</b>
-```
+
 
 <!-- ### container
 Running `./container` takes you inside the `news-parsing-service` container under user uid(1000) (same with host user)
